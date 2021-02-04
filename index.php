@@ -1,1 +1,0 @@
-<?php header('Location: https://theoragot.github.io/home');
