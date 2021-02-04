@@ -1,1 +1,1 @@
-<?php header('Location: /home/');
+<?php header('Location: https://theoragot.github.io/home');
