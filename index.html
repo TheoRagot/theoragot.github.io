@@ -67,14 +67,15 @@
                 </div>
             </div>
             <div id="app" >
-                <h2>{{ message }}</h2>
+                <h2>Compétences</h2>
                 <div class="bar">
-                    <button class="competence buttonActive">Dev </button>
-                    <button class="competence">Design </button>
-                    <button class="competence">Outils </button>
-                    <button class="competence">Transerve </button>
+                    <button class="competence buttonActive" v-on:click="dev">Dev </button>
+                    <button class="competence"  v-on:click="design" >Design </button>
+                    <button class="competence" v-on:click="outils">Outils </button>
+                    <button class="competence" v-on:click="transverse">Transerve </button>
                 </div>
-                <div class="description">
+                <!-- dev -->
+                <div class="description" v-if=" nbx === 0" >
                     <div class="ligne">
                         <div class="textesmall gray">Intégration Web</div>
                         <div class="textesmall ">HTML5/ CSS3 / PUG / STYLUS </div>
@@ -94,6 +95,47 @@
                     <div class="ligne">
                         <div class="textesmall gray">BDD acquise: </div>
                         <div class="textesmall ">Mongoose/ MYSQL </div>
+                    </div>
+                </div>
+                <!-- design -->
+                <div class="description" v-if=" nbx === 1">
+                    <div class="ligne">
+                        <div class="textesmall gray">Suite Adobe : </div>
+                        <div class="textesmall ">Xd / InDesign / Phtoshop / Illustator </div>
+                    </div>
+                    <div class="ligne">
+                        <div class="textesmall gray">Connaissance : </div>
+                        <div class="textesmall ">Maquettage/ UI\UX / Chartre Graphique </div>
+                    </div>
+                </div>
+                <!-- outils -->
+                <div class="description" v-if=" nbx === 3">
+                    <div class="ligne">
+                        <div class="textesmall gray">Microsoft 360 : </div>
+                        <div class="textesmall ">Excel / PowerPoint / Word </div>
+                    </div>
+                    <div class="ligne">
+                        <div class="textesmall gray">PhotoVidéo : </div>
+                        <div class="textesmall ">Première Pro/ After Efect </div>
+                    </div>
+                    <div class="ligne">
+                        <div class="textesmall gray">Suite Adobe : </div>
+                        <div class="textesmall ">Xd / InDesign / Phtoshop / Illustator  </div>
+                    </div>
+                </div>
+                <!-- transerve -->
+                <div class="description" v-if=" nbx === 4">
+                    <div class="ligne">
+                        <div class="textesmall gray">Communication : </div>
+                        <div class="textesmall ">Parler / Ecouter </div>
+                    </div>
+                    <div class="ligne">
+                        <div class="textesmall gray">Gestion de Projet : </div>
+                        <div class="textesmall "> Scrum/ Methode Agile </div>
+                    </div>
+                    <div class="ligne">
+                        <div class="textesmall gray">Sport : </div>
+                        <div class="textesmall ">Basket / Boxe  </div>
                     </div>
                 </div>
             </div>   
