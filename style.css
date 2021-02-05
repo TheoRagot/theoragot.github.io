@@ -25,6 +25,7 @@ body{
     margin-right: 100px;
     font-size: 0.8rem;
     cursor: pointer;
+    text-decoration: none;
 }
 .button--clear{
     color: white;
@@ -53,13 +54,15 @@ body{
 
 .blanc{
     background-color: lightgray ;
-    border:2px solid green ;
 }
 .blanc--tall{
     width: 600px;
     height: 340px;
 }
 .blanc--small{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 150px;
     width: 330px;
 }
@@ -135,5 +138,38 @@ h1{
 }
 body{
   background-color: #1B2838 ;
+}
+.ligne{
+    margin-bottom: -2px;
+}
+.bar{
+    width: 615px;
+    height: 30px;
+    display: flex;
+    align-items: flex-end;
+    background: rgb(58,75,110);
+    background: linear-gradient(90deg, rgba(58,75,110,1) 0%, rgba(27,44,62,1) 80%);
+}
+.competence{
+    background-color: none;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #3B6E8C;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    cursor: pointer;
+}
+.buttonActive{
+    background-color: #18222E;
+}
+#app{
+    margin-top: 50px;
+    margin-bottom: 50px; 
+}
+h2{
+    color: white;
+    font-size: 1.2rem;
 }
 

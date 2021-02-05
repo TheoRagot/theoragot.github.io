@@ -26,7 +26,7 @@
             <div class="super-content">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/bE1rE7Y-YI0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <div class="content">
-                    <div class="blanc blanc--small"></div>
+                    <div class="blanc blanc--small"> Illustation en Cours</div>
                     <div class="description">
                         Théo est un développeur Web en pleine croissant dans le monde de la tech. 
                         Il est actuellement en deuxième année de bachelor Web&Digital chez MyDigitalSchool. 
@@ -68,11 +68,12 @@
             </div>
             <div id="app" >
                 <h2>Compétences</h2>
+                <img class="ligne" src="img/ligne.png">
                 <div class="bar">
-                    <button class="competence buttonActive" v-on:click="dev">Dev </button>
-                    <button class="competence"  v-on:click="design" >Design </button>
-                    <button class="competence" v-on:click="outils">Outils </button>
-                    <button class="competence" v-on:click="transverse">Transerve </button>
+                    <div class="competence " v-on:click="dev">Dev </div>
+                    <div class="competence buttonActive"  v-on:click="design" >Design </div>
+                    <div class="competence" v-on:click="outils">Outils </div>
+                    <div class="competence" v-on:click="transverse">Transerve </div>
                 </div>
                 <!-- dev -->
                 <div class="description" v-if=" nbx === 0" >
@@ -138,7 +139,9 @@
                         <div class="textesmall ">Basket / Boxe  </div>
                     </div>
                 </div>
-            </div>   
+            </div> 
+            <h2>Projets</h2> 
+            <img src="img/ligne2.png">
         </div>
         <img src="img/backgroundImage.png" class="background"></div>
     </div>
