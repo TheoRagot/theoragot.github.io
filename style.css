@@ -26,6 +26,9 @@ header{
     color: white;
     margin-left: 410px;
 }
+.menu{
+    color: white;
+}
 .cadre{
     border: 2px solid white ;
     padding: 1px 4px;
@@ -149,4 +152,116 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.competences{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 45px;
+}
+.competence{
+    padding: 2px 5px;
+    font-size: 1.2rem;
+    border: 1px solid #707070 ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.colonne{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pourcent{
+    font-size: 0.6rem;
+}
+.barre{
+    width: 50px;
+    height: 300px;
+    background-color: white;
+    border: 1px #707070 solid;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+.score{
+    width : 100%;
+    background: rgb(46,77,124);
+    background: linear-gradient(0deg, rgba(46,77,124,1) 0%, rgba(46,77,124,0.8) 50%, rgba(46,77,124,0.4991130241158963) 100%);
+}
+.t100{
+    height: 100%;
+}
+.t90{
+    height: 90%;
+}
+.t85{
+    height: 85%;
+}
+.t80{
+    height: 80%;
+}
+.t75{
+    height: 75%;
+}  
+.t70{
+    height: 70%;
+}
+.t60{
+    height: 60%;
+}
+.t50{
+    height: 50%;
+}
+.t40{
+    height: 40%;
+}
+.t20{
+    height: 20%;
+}
+
+.logoComp{
+    width: 75px;
+    height: auto;
+}
+.logoCompSmall{
+    width: 50px;
+    height: auto;
+}
+.logoCompTall{
+    width: 85px;
+    height: auto;
+}
+
+.Comp{
+    font-size: 1rem;
+    margin-top: 12px;
+    font-weight: bold;
+}
+.part{
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* footer */
+footer{
+    position: absolute;
+    top: 2300px;
+    background-color: #2E4D7C ;
+    opacity: 0.85;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+
+}
+.LogoFooter{
+    width: 50px;
 }

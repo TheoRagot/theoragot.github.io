@@ -143,7 +143,190 @@
                 <h2>Mes Compétences</h2>
                 <div class=" h2 italique">&lt/h2&gt</div>
             </div>
+            <div class="competences">
+                <div class="competence">Développement Web</div>
+                <div class="competence">Design Web</div>
+                <div class="competence">Outils</div>
+                <div class="competence">Transverse</div>
+            </div>
+
+            <!-- dev -->
+            <div class="part" v-if=" nbx === 0" >
+                <div class="colonne">
+                    <div class="pourcent">100 %</div>
+                    <div class="barre">
+                        <div class="score t100"></div>
+                    </div>
+                    <img src="img/HTML.png" class="logoComp">
+                </div>
+                <div class="colonne">
+                    <div class="pourcent">90 %</div>
+                    <div class="barre">
+                        <div class="score t90"></div>
+                    </div>
+                    <img src="img/CSS.png" class="logoCompSmall">
+                </div>
+                <div class="colonne">
+                    <div class="pourcent">70 %</div>
+                    <div class="barre">
+                        <div class="score t70"></div>
+                    </div>
+                    <img src="img/PUG.png" class="logoComp">
+                </div>
+                <div class="colonne">
+                    <div class="pourcent">75 %</div>
+                    <div class="barre">
+                        <div class="score t75"></div>
+                    </div>
+                    <img src="img/Js.png" class="logoComp">
+                </div>
+                <div class="colonne">
+                    <div class="pourcent">85 %</div>
+                    <div class="barre">
+                        <div class="score t85"></div>
+                    </div>
+                    <img src="img/PHP.png" class="logoComp">
+                </div>
+                <div class="colonne">
+                    <div class="pourcent">70 %</div>
+                    <div class="barre">
+                        <div class="score t70"></div>
+                    </div>
+                    <img src="img/Vue.png" class="logoComp">
+                </div>
+                <div class="colonne">
+                    <div class="pourcent">60 %</div>
+                    <div class="barre">
+                        <div class="score t60"></div>
+                    </div>
+                    <img src="img/Laravel.png" class="logoComp">
+                </div>
+                <div class="colonne">
+                    <div class="pourcent">80 %</div>
+                    <div class="barre">
+                        <div class="score t80"></div>
+                    </div>
+                    <img src="img/SQL.png" class="logoComp">
+                </div>
+            </div>
+
+            <!-- design -->
+            <div class="part" v-if="nbx === 1">
+                <div class="colonne">
+                    <div class="pourcent">90 %</div>
+                    <div class="barre">
+                        <div class="score t90"></div>
+                    </div>
+                    <img src="img/XD.png" class="logoCompSmall">
+                </div>
+                <div class="colonne">
+                    <div class="pourcent">20 %</div>
+                    <div class="barre">
+                        <div class="score t20"></div>
+                    </div>
+                    <img src="img/Id.png" class="logoCompSmall">
+                </div>
+                <div class="colonne">
+                    <div class="pourcent">40 %</div>
+                    <div class="barre">
+                        <div class="score t40"></div>
+                    </div>
+                    <img src="img/Ps.png" class="logoCompTall">
+                </div>
+                <div class="colonne">
+                    <div class="pourcent">40 %</div>
+                    <div class="barre">
+                        <div class="score t40"></div>
+                    </div>
+                    <img src="img/Ai.webp" class="logoCompSmall">
+                </div>
+                <div class="colonne">
+                    <div class="pourcent">75 %</div>
+                    <div class="barre">
+                        <div class="score t75"></div>
+                    </div>
+                    <div class="Comp"> Maquettage </div>
+                </div>
+            </div>
+
+            <!-- outils -->
+            <div class="part" v-if=" nbx === 2">
+                <div class="colonne">
+                    <div class="pourcent">100 %</div>
+                    <div class="barre">
+                        <div class="score t100"></div>
+                    </div>
+                    <img src="img/Excel.png" class="logoCompTall">
+                </div>
+                <div class="colonne">
+                    <div class="pourcent">80 %</div>
+                    <div class="barre">
+                        <div class="score t80"></div>
+                    </div>
+                    <img src="img/Word.png" class="logoCompSmall">
+                </div>
+                <div class="colonne">
+                    <div class="pourcent">90 %</div>
+                    <div class="barre">
+                        <div class="score t90"></div>
+                    </div>
+                    <img src="img/Pp.png" class="logoCompSmall">
+                </div>
+                <div class="colonne">
+                    <div class="pourcent">60 %</div>
+                    <div class="barre">
+                        <div class="score t60"></div>
+                    </div>
+                    <img src="img/Pr.png" class="logoCompSmall">
+                </div>
+
+            </div>
+
+            <!-- transervse -->
+            <div class="part" v-if="nbx === 3">
+                <div class="colonne">
+                    <div class="pourcent">100 %</div>
+                    <div class="barre">
+                        <div class="score t100"></div>
+                    </div>
+                    <div class="Comp"> Communication </div>
+                </div>
+                <div class="colonne">
+                    <div class="pourcent">100 %</div>
+                    <div class="barre">
+                        <div class="score t100"></div>
+                    </div>
+                    <div class="Comp"> Travail en Equipe </div>
+                </div>
+                <div class="colonne">
+                    <div class="pourcent">70 %</div>
+                    <div class="barre">
+                        <div class="score t70"></div>
+                    </div>
+                    <div class="Comp"> Méthode Agile </div>
+                </div>
+                <div class="colonne">
+                    <div class="pourcent">80 %</div>
+                    <div class="barre">
+                        <div class="score t80"></div>
+                    </div>
+                    <div class="Comp"> Humour </div>
+                </div>
+            </div>
         </div>
+
+        <footer>
+            <div class="menu cadre">Me contacter</div>
+            <div class="footer">
+                <a href="https://www.linkedin.com/in/theo-ragot/">
+                    <img src="img/link.png" class="LogoFooter">
+                </a>
+                <a href="https://github.com/TheoRagot">
+                    <img src="img/github.png" class="LogoFooter">
+                </a>
+            </div>
+            <div class="menu cadre"> Mon Cv</div>
+        </footer>
     </div>
     
 <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>

@@ -1,6 +1,6 @@
 
 var app = new Vue({
-    el: '#app',
+    el: '#blockComp',
     data: {
       nbx : 0 ,
       seen: true,
