@@ -10,10 +10,10 @@ var app = new Vue({
         this.nbx = 0;
       },
       outils: function(){
-        this.nbx = 3;
+        this.nbx = 2;
       },
       transverse: function(){
-        this.nbx = 4;
+        this.nbx = 3;
       },
       design: function(){
         this.nbx = 1;
