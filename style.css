@@ -28,6 +28,7 @@ header{
 }
 .menu{
     color: white;
+    text-decoration: none;
 }
 .cadre{
     border: 2px solid white ;
