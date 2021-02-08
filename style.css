@@ -266,3 +266,41 @@ footer{
 .LogoFooter{
     width: 50px;
 }
+/* page contact */
+.pageContact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    margin-top: 50px;
+}
+.headerContact{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 600px;
+}
+.input{
+    padding-left:5px ;
+    height: 35px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.inputTall{
+    width: 100%;
+}
+.inputVeryTall{
+    width: 100%;
+    height: 180px;
+}
+.ligneContact{
+    display: flex;
+    justify-content: space-between;
+}
