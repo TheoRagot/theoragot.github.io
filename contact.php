@@ -56,7 +56,7 @@
   </head>
   <body>
     <header class="header headerContact">
-      <a href="index.html" > <img src="img/logo" alt="logo"> </a>
+      <a href="index.html" class="logoContact" > T.R </a>
     </header>
     <section class="pageContact">
         <div class="ligne">
@@ -72,11 +72,23 @@
             </div>
             <input class="input inputTall" type="email" id="adresseMail" name="adresseMail" placeholder="Adresse Mail" value="<?php if(isset($_POST['adresseMail'])){echo $_POST['adresseMail'];}else{echo "";} ?>">
             <textarea class="input inputVeryTall"name="mess" id="mess" cols="30" rows="10" placeholder="Votre message"><?php if(isset($_POST['mess'])){echo $_POST['mess'];}else{echo "";} ?></textarea>
-            <input type="submit" value="envoyer">
+            <input class="button" type="submit" value="Envoyer">
         </form>
     </section>
+    <footer class="footerContact">
+            <div class="menu cadre">Me contacter</div>
+            <div class="footer">
+                <a href="https://www.linkedin.com/in/theo-ragot/">
+                    <img src="img/link.png" class="LogoFooter">
+                </a>
+                <a href="https://github.com/TheoRagot">
+                    <img src="img/github.png" class="LogoFooter">
+                </a>
+            </div>
+            <a download class="menu cadre" href="img/CV Théo Ragot.jpg"> Mon Cv</a>
+        </footer>
       <div style="display : <?php if($messageEnvoye) {echo "block";}else{echo "none";} ?>">Message envoyé.</div>
-      <div style="display : <?php if($messageEnvoye) {echo "none";}else{echo "block";} ?>">Donnée(s) manquante(s).</div>
+      <div style="display : <?php if($messageEnvoye) {echo "none";}else{echo "block";} ?>"></div>
     </div>
   </body>
 </html>
