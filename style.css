@@ -146,7 +146,7 @@ h2{
     margin-top: 30px;
 }
 
-/* Expèrience Professionelle */
+/* fin Expèrience Professionelle */
 
 #blockComp{
     position: absolute;
@@ -168,6 +168,9 @@ h2{
     border: 1px solid #707070 ;
     border-radius: 5px;
     cursor: pointer;
+}
+.on{
+    background-color: lightblue;
 }
 .colonne{
     display: flex;
@@ -192,34 +195,45 @@ h2{
     background: linear-gradient(0deg, rgba(46,77,124,1) 0%, rgba(46,77,124,0.8) 50%, rgba(46,77,124,0.4991130241158963) 100%);
 }
 .t100{
-    height: 100%;
+    height: 100% ;
+    animation: animationt100 5s;
 }
 .t90{
     height: 90%;
+    animation: animationt90 5s;
 }
 .t85{
     height: 85%;
+    animation: animationt85 5s;
+
 }
 .t80{
     height: 80%;
+    animation: animationt80 5s;
 }
 .t75{
     height: 75%;
+    animation: animationt75 5s;
 }  
 .t70{
     height: 70%;
+    animation: animationt70 5s;
 }
 .t60{
     height: 60%;
+    animation: animationt60 5s;
 }
 .t50{
     height: 50%;
+    animation: animationt50 5s;
 }
 .t40{
     height: 40%;
+    animation: animationt40 5s;
 }
 .t20{
     height: 20%;
+    animation: animationt20 5s;
 }
 
 .logoComp{
@@ -332,4 +346,43 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+/* animation */
+
+@keyframes animationt100 {
+    from { height: 0 }
+    to   { height: 100% }
+}
+@keyframes animationt90 {
+    from { height: 0 }
+    to   { height: 90% }
+}
+@keyframes animationt80 {
+    from { height: 0 }
+    to   { height: 80% }
+}
+@keyframes animationt85 {
+    from { height: 0 }
+    to   { height: 85% }
+}
+@keyframes animationt75 {
+    from { height: 0 }
+    to   { height: 75% }
+}@keyframes animationt70 {
+    from { height: 0 }
+    to   { height: 70% }
+}@keyframes animationt60 {
+    from { height: 0 }
+    to   { height: 60% }
+}@keyframes animationt50 {
+    from { height: 0 }
+    to   { height: 50% }
+}@keyframes animationt40 {
+    from { height: 0 }
+    to   { height: 40% }
+}
+@keyframes animationt20 {
+    from { height: 0 }
+    to   { height: 20% }
 }

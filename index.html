@@ -135,10 +135,10 @@
                 <div class=" h2 italique">&lt/h2&gt</div>
             </div>
             <div class="competences">
-                <div class="competence" v-on:click="dev">Développement Web</div>
-                <div class="competence" v-on:click="design">Design Web</div>
-                <div class="competence" v-on:click="outils">Outils</div>
-                <div class="competence" v-on:click="transverse">Transverse</div>
+                <div :class="{ 'on' : nbx === 0 }" class="competence" v-on:click="dev">Développement Web</div>
+                <div :class="{ 'on' : nbx === 1 }"class="competence" v-on:click="design">Design Web</div>
+                <div :class="{ 'on' : nbx === 2 }"class="competence" v-on:click="outils">Outils</div>
+                <div :class="{ 'on' : nbx === 3 }"class="competence" v-on:click="transverse">Transverse</div>
             </div>
 
             <!-- dev -->
@@ -152,8 +152,8 @@
                 </div>
                 <div class="colonne">
                     <div class="pourcent">90 %</div>
-                    <div class="barre" moz-animation:Animate-HTML4s >
-                        <div class="score t90"></div>
+                    <div class="barre" >
+                        <div class="score t90" ></div>
                     </div>
                     <img src="img/CSS.png" class="logoCompSmall">
                 </div>
